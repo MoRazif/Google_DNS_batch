@@ -1,5 +1,5 @@
 rem Changing DNS to Google Public DNS; 8.8.8.8, 8.8.4.4
-rem Mohamad Razif Abdul Rahim
+rem ** Mo_Razif **
 
 netsh interface ipv4 set dns name="Local Area Connection" static 8.8.8.8 primary
 netsh interface ipv4 add dns name="Local Area Connection" 8.8.4.4
